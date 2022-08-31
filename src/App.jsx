@@ -1,10 +1,10 @@
 import React from "react";
 import { useState } from "react";
 import { Header } from "./components/Header";
-import { Post } from "./Post";
+import { Post } from "./components/Post";
+import { Sidebar } from "./components/Sidebar";
 import "./styles.css";
 import styles from "./App.module.css";
-import { Sidebar } from "./components/Sidebar";
 
 export function App() {
   return (
